@@ -1,0 +1,18 @@
+{
+  "name": "example_express_app",
+  "version": "0.0.1",
+  "description": "This is an example express app made to deploy on a DO droplet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Andrew Moore",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
